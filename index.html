@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Features Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🎯 Interactive UI Experience</h1>
+  </header>
+
+  <section class="interactions">
+    <button id="magicBtn">Try Me</button>
+    <p id="secretMessage" class="hidden">🤫 Secret unlocked on double-click!</p>
+  </section>
+
+  <section class="slideshow">
+   
+    <button id="nextImg">Next ➡️</button>
+  </section>
+
+  <section class="toggle-box">
+    <button class="accordion-btn">Show/Hide Details</button>
+    <div class="accordion-content">
+      <p>This section is expandable with a simple click.</p>
+    </div>
+  </section>
+
+  <section class="form-area">
+    <h2>📋 Join Us</h2>
+    <form id="signupForm">
+      <label for="email">
+        Email:
+        <input type="email" id="email" required />
+        <span id="emailFeedback"></span>
+      </label><br>
+
+      <label for="password">
+        Password:
+        <input type="password" id="password" required minlength="8" />
+        <span id="passwordFeedback"></span>
+      </label><br>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <section>
+    <p id="keypressOutput">Press any key to see it here...</p>
+  </section>
+</body>
+</html>
